@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrossV Overview</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #0f172a;
+      --fg: #e2e8f0;
+      --card: #111827;
+      --accent: #22c55e;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+    }
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: 28px;
+    }
+    .actions {
+      margin-bottom: 12px;
+    }
+    a.button {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #052e16;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .viewer {
+      width: 100%;
+      height: calc(100vh - 140px);
+      border: 0;
+      border-radius: 10px;
+      background: var(--card);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Overview of the CrossV Organization</h1>
+    <div class="actions">
+      <a class="button" href="docs/Overviw.pdf" target="_blank" rel="noopener noreferrer">Open PDF in New Tab</a>
+    </div>
+    <iframe class="viewer" src="docs/Overviw.pdf#toolbar=1"></iframe>
+  </div>
+</body>
+</html>
